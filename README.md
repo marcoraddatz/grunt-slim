@@ -1,11 +1,14 @@
-# grunt-slim [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-slim.png?branch=master)](http://travis-ci.org/matsumos/grunt-slim)
+# grunt-slim
 
-> Compile Slim to HTML
+[![Build Status](https://travis-ci.org/marcoraddatz/grunt-slim.svg)](https://travis-ci.org/marcoraddatz/grunt-slim.svg)
 
+> Compile Slim templates to HTML
 
+This fork focuses on making grunt-slim available for Grunt `>=0.4.0`. **It’s not actively maintained, so use at own risk.**
+
+***
 
 ## Getting Started
-This plugin requires Grunt `~0.4.0`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -18,8 +21,6 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 ```js
 grunt.loadNpmTasks('grunt-slim');
 ```
-
-
 
 
 ## Slim task
